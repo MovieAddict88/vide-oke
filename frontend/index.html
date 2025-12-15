@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Karaoke Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="karaoke-container">
+        <div class="video-container">
+            <video id="video-player" controls></video>
+        </div>
+        <div class="song-queue">
+            <h2>Next in Queue</h2>
+            <ul id="queue-list"></ul>
+        </div>
+        <div class="controls">
+            <input type="text" id="song-number-input" placeholder="Enter Song Number">
+            <button id="play-button">Play</button>
+            <button id="next-button">Next</button>
+        </div>
+        <div class="song-list-container">
+            <h2>Song List</h2>
+            <ul id="song-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

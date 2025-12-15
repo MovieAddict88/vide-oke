@@ -1,0 +1,13 @@
+[Mon Dec 15 07:40:27 2025] PHP 8.3.6 Development Server (http://localhost:8000) started
+[Mon Dec 15 07:40:55 2025] [::1]:34924 Accepted
+[Mon Dec 15 07:40:55 2025] [::1]:34924 [200]: GET /frontend/
+[Mon Dec 15 07:40:55 2025] [::1]:34924 Closing
+[Mon Dec 15 07:40:55 2025] [::1]:34936 Accepted
+[Mon Dec 15 07:40:55 2025] [::1]:34950 Accepted
+[Mon Dec 15 07:40:55 2025] [::1]:34936 [200]: GET /frontend/style.css
+[Mon Dec 15 07:40:55 2025] [::1]:34950 [200]: GET /frontend/script.js
+[Mon Dec 15 07:40:55 2025] [::1]:34936 Closing
+[Mon Dec 15 07:40:55 2025] [::1]:34950 Closing
+[Mon Dec 15 07:40:55 2025] [::1]:34956 Accepted
+[Mon Dec 15 07:40:55 2025] [::1]:34956 [200]: GET /backend/api/songs.php
+[Mon Dec 15 07:40:55 2025] [::1]:34956 Closing
