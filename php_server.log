@@ -1,13 +1,58 @@
-[Mon Dec 15 07:40:27 2025] PHP 8.3.6 Development Server (http://localhost:8000) started
-[Mon Dec 15 07:40:55 2025] [::1]:34924 Accepted
-[Mon Dec 15 07:40:55 2025] [::1]:34924 [200]: GET /frontend/
-[Mon Dec 15 07:40:55 2025] [::1]:34924 Closing
-[Mon Dec 15 07:40:55 2025] [::1]:34936 Accepted
-[Mon Dec 15 07:40:55 2025] [::1]:34950 Accepted
-[Mon Dec 15 07:40:55 2025] [::1]:34936 [200]: GET /frontend/style.css
-[Mon Dec 15 07:40:55 2025] [::1]:34950 [200]: GET /frontend/script.js
-[Mon Dec 15 07:40:55 2025] [::1]:34936 Closing
-[Mon Dec 15 07:40:55 2025] [::1]:34950 Closing
-[Mon Dec 15 07:40:55 2025] [::1]:34956 Accepted
-[Mon Dec 15 07:40:55 2025] [::1]:34956 [200]: GET /backend/api/songs.php
-[Mon Dec 15 07:40:55 2025] [::1]:34956 Closing
+[Mon Dec 15 08:22:48 2025] PHP 8.3.6 Development Server (http://localhost:8000) started
+[Mon Dec 15 08:22:55 2025] [::1]:57722 Accepted
+[Mon Dec 15 08:22:55 2025] [::1]:57722 [200]: GET /frontend/
+[Mon Dec 15 08:22:55 2025] [::1]:57722 Closing
+[Mon Dec 15 08:23:03 2025] [::1]:57726 Accepted
+[Mon Dec 15 08:23:03 2025] [::1]:57726 [200]: GET /backend/api/songs.php
+[Mon Dec 15 08:23:03 2025] [::1]:57726 Closing
+[Mon Dec 15 08:23:39 2025] [::1]:48980 Accepted
+[Mon Dec 15 08:23:39 2025] [::1]:48980 [200]: GET /backend/api/songs.php
+[Mon Dec 15 08:23:39 2025] [::1]:48980 Closing
+[Mon Dec 15 08:24:29 2025] [::1]:51594 Accepted
+[Mon Dec 15 08:24:29 2025] [::1]:51594 [200]: GET /frontend/
+[Mon Dec 15 08:24:29 2025] [::1]:51594 Closing
+[Mon Dec 15 08:24:29 2025] [::1]:51596 Accepted
+[Mon Dec 15 08:24:29 2025] [::1]:51602 Accepted
+[Mon Dec 15 08:24:29 2025] [::1]:51596 [200]: GET /frontend/style.css
+[Mon Dec 15 08:24:29 2025] [::1]:51602 [200]: GET /frontend/script.js
+[Mon Dec 15 08:24:29 2025] [::1]:51596 Closing
+[Mon Dec 15 08:24:29 2025] [::1]:51602 Closing
+[Mon Dec 15 08:24:30 2025] [::1]:51606 Accepted
+[Mon Dec 15 08:24:30 2025] [::1]:51606 [200]: GET /backend/api/songs.php
+[Mon Dec 15 08:24:30 2025] [::1]:51606 Closing
+[Mon Dec 15 08:24:45 2025] [::1]:50268 Accepted
+[Mon Dec 15 08:24:45 2025] [::1]:50268 [200]: GET /frontend/
+[Mon Dec 15 08:24:45 2025] [::1]:50268 Closing
+[Mon Dec 15 08:24:45 2025] [::1]:50282 Accepted
+[Mon Dec 15 08:24:45 2025] [::1]:50286 Accepted
+[Mon Dec 15 08:24:45 2025] [::1]:50282 [200]: GET /frontend/style.css
+[Mon Dec 15 08:24:45 2025] [::1]:50282 Closing
+[Mon Dec 15 08:24:45 2025] [::1]:50286 [200]: GET /frontend/script.js
+[Mon Dec 15 08:24:45 2025] [::1]:50286 Closing
+[Mon Dec 15 08:24:45 2025] [::1]:50290 Accepted
+[Mon Dec 15 08:24:45 2025] [::1]:50290 [200]: GET /backend/api/songs.php
+[Mon Dec 15 08:24:45 2025] [::1]:50290 Closing
+[Mon Dec 15 08:25:05 2025] [::1]:46214 Accepted
+[Mon Dec 15 08:25:05 2025] [::1]:46214 [200]: GET /frontend/
+[Mon Dec 15 08:25:05 2025] [::1]:46214 Closing
+[Mon Dec 15 08:25:05 2025] [::1]:46230 Accepted
+[Mon Dec 15 08:25:05 2025] [::1]:46242 Accepted
+[Mon Dec 15 08:25:05 2025] [::1]:46230 [200]: GET /frontend/style.css
+[Mon Dec 15 08:25:05 2025] [::1]:46242 [200]: GET /frontend/script.js
+[Mon Dec 15 08:25:05 2025] [::1]:46230 Closing
+[Mon Dec 15 08:25:05 2025] [::1]:46242 Closing
+[Mon Dec 15 08:25:05 2025] [::1]:46256 Accepted
+[Mon Dec 15 08:25:05 2025] [::1]:46256 [200]: GET /backend/api/songs.php
+[Mon Dec 15 08:25:05 2025] [::1]:46256 Closing
+[Mon Dec 15 08:25:33 2025] [::1]:60490 Accepted
+[Mon Dec 15 08:25:33 2025] [::1]:60490 [200]: GET /frontend/
+[Mon Dec 15 08:25:33 2025] [::1]:60490 Closing
+[Mon Dec 15 08:25:33 2025] [::1]:60504 Accepted
+[Mon Dec 15 08:25:33 2025] [::1]:60510 Accepted
+[Mon Dec 15 08:25:33 2025] [::1]:60504 [200]: GET /frontend/style.css
+[Mon Dec 15 08:25:33 2025] [::1]:60510 [200]: GET /frontend/script.js
+[Mon Dec 15 08:25:33 2025] [::1]:60504 Closing
+[Mon Dec 15 08:25:33 2025] [::1]:60510 Closing
+[Mon Dec 15 08:25:33 2025] [::1]:60518 Accepted
+[Mon Dec 15 08:25:33 2025] [::1]:60518 [200]: GET /backend/api/songs.php
+[Mon Dec 15 08:25:33 2025] [::1]:60518 Closing
