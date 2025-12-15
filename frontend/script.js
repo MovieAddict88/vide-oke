@@ -6,7 +6,7 @@ const queueListElement = document.getElementById('queue-list');
 const songNumberInput = document.getElementById('song-number-input');
 const playButton = document.getElementById('play-button');
 const nextButton = document.getElementById('next-button');
-const videoPlayer = document.getElementById('video-player');
+const player = videojs('video-player');
 
 let songQueue = [];
 
@@ -55,8 +55,11 @@ function renderQueue() {
 // Play the current song
 function playSong() {
     if (songQueue.length > 0) {
-        videoPlayer.src = songQueue[0].video_source;
-        videoPlayer.play();
+        player.src({
+            type: 'video/youtube',
+            src: songQueue[0].video_source
+        });
+        player.play();
         renderQueue();
     }
 }
@@ -68,7 +71,7 @@ function nextSong() {
         playSong();
     } else if (songQueue.length === 1) {
         songQueue.shift();
-        videoPlayer.src = '';
+        player.reset();
         renderQueue();
     }
 }
@@ -92,7 +95,7 @@ playButton.addEventListener('click', () => {
 
 nextButton.addEventListener('click', nextSong);
 
-videoPlayer.addEventListener('ended', nextSong);
+player.on('ended', nextSong);
 
 
 // Initial load
